@@ -15,3 +15,13 @@ spec:
       recurse: true
   destination:
     server: https://kubernetes.default.svc
+  syncPolicy:
+    automated:
+      allowEmpty: false
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - Validate=true
+    - CreateNamespace=true
+    - PrunePropagationPolicy=foreground
+    - PruneLast=true
