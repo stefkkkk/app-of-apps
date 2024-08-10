@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: git@github.com:stefkkkk/apps-helm-charts.git
-    targetRevision: HEAD
+    targetRevision: main
     path: env/dev
     directory:
       recurse: true
