@@ -9,7 +9,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:stefkkkk/app-of-apps.git
+    repoURL: git@github.com:stefkkkk/apps-helm-charts.git
     targetRevision: HEAD
     path: env/dev
     directory:
